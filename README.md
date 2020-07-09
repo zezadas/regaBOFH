@@ -4,7 +4,7 @@ regaBOFH - Slack deleter
 
 ----
 ## What is REGABOFH?
-From the Portuguese word [regabofe] (https://dicionario.priberam.org/regabofe) meaning party hard, this tool is the complete opposite. This will ruin [BOFH] (https://en.wikipedia.org/wiki/Bastard_Operator_From_Hell) fun from enterprise slack admins by deleting your messages (including threaded messages), so they can't spy on you.
+From the Portuguese word [regabofe](https://dicionario.priberam.org/regabofe) meaning party hard, this tool is the complete opposite. This will ruin [BOFH](https://en.wikipedia.org/wiki/Bastard_Operator_From_Hell) fun from enterprise slack admins by deleting your messages (including threaded messages), so they can't spy on you.
 
 This tool will list all the private conversations (not the public ones or multiple user conversations). 
 Then you can choose interactively which conversations you which to delete, for example; _friend1,friend2,..._

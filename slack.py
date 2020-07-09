@@ -2,15 +2,7 @@
 #template from: https://gist.github.com/bboe/0306fa90271ffc4c21add661d98a81f3
 #API List: https://api.slack.com/methods
 
-"""Set retention on slack conversations to 400 days.
-Usage: ./set_retention.py [--perform] --token SLACK_TOKEN
-The `--perform` flag is necessary to actually perform the action.
-Due to the fact that `conversations.setToken` is not part of the public API
-the slack legacy token concept will not work. To obtain the API token,
-open up slack in the browser and observe networking traffic while performing
-a few POST actions on the desired slack workspace. The data field to the POST
-message should contain a token beginning with `xoxs-`; that's your token.
-"""
+
 import argparse
 import os
 import sys
